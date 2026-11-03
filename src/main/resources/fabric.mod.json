@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "possessedgrin",
+  "version": "${version}",
+  "name": "Requiem: Possessed Grin",
+  "description": "Possess the Warden, Wither and Ender Dragon and use their attacks. Every possessed mob gets glowing white eyes and a malicious grin, and even passive mobs like villagers can fight.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "requiem:plugin": [
+      "com.possessedgrin.PossessedGrinPlugin"
+    ]
+  },
+  "mixins": [
+    "possessedgrin.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.19.2",
+    "requiem": "*"
+  },
+  "suggests": {
+    "pandemonium": "*"
+  }
+}
